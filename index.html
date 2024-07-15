@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>PC Site</title>
+</head>
+
+<body>
+  <section id="header">
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('./imgSlide1.jpg');" data-bs-interval="2000">
+        <div class="container">
+          <h1>PC World</h1>
+          <p>For Contact : +910123456789</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('./imgSlide2.jpg');" data-bs-interval="2000">
+        <div class="container">
+          <h1>PC World</h1>
+          <p>For Contact : +910123456789</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('./imgSlide3.jpg');" data-bs-interval="2000">
+        <div class="container">
+          <h1>PC World</h1>
+          <p>For Contact : +910123456789</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('./imgSlide4.jpg');" data-bs-interval="2000">
+        <div class="container">
+          <h1>PC World</h1>
+          <p>For Contact : +910123456789</p>
+        </div>
+      </div>
+    </div>
+
+    <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+  </div>
+</section>
+
+<section id="card">
+  <div class="container1 mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#productModal1">
+          <img src="./product1.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Acer Predator Orion 7000</h5>
+            <p class="card-text">A premium gaming PC for gamers who need a lot of power.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#productModal2">
+          <img src="./product2.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Apple Mac Studio M2</h5>
+            <p class="card-text">All the power you need for pro video editing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" data-bs-toggle="modal" data-bs-target="#productModal3">
+          <img src="./product3.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Lenovo LOQ 13th Gen</h5>
+            <p class="card-text">With an outstanding mix of specs, speedy display, and fantastic price for its midrange configuration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Modals -->
+  <div class="modal fade" id="productModal1" tabindex="-1" aria-labelledby="productModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body d-flex">
+          <img src="./product1.jpg" class="img-fluid me-3" alt="Product 1">
+          <div>
+            <h5>Acer Predator Orion 7000</h5>
+            <p>A premium gaming PC for gamers who need a lot of power.</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Specification</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CPU</td>
+                  <td>13th-gen Intel Core i7 - i9</td>
+                </tr>
+                <tr>
+                  <td>Graphics</td>
+                  <td>Nvidia GeForce RTX 3080 - 4090</td>
+                </tr>
+                <tr>
+                  <td>RAM</td>
+                  <td>32 GB, DDR5 SDRAM</td>
+                </tr>
+                <tr>
+                  <td>Storage</td>
+                  <td>1 TB SSD, 2 TB HDD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body d-flex">
+          <img src="./product2.jpg" class="img-fluid me-3" alt="Product 2">
+          <div>
+            <h5>Apple Mac Studio M2</h5>
+            <p>All the power you need for pro video editing.</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Specification</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CPU</td>
+                  <td>M2 Max 12 cores / M2 Ultra 24-cores</td>
+                </tr>
+                <tr>
+                  <td>Graphics</td>
+                  <td>30-core GPU / 60-core GPU</td>
+                </tr>
+                <tr>
+                  <td>RAM</td>
+                  <td>32GB / 64GB</td>
+                </tr>
+                <tr>
+                  <td>Storage</td>
+                  <td>512GB-8TB SSD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body d-flex">
+          <img src="./product3.jpg" class="img-fluid me-3" alt="Product 3">
+          <div>
+            <h5>Lenovo LOQ 13th Gen</h5>
+            <p>With an outstanding mix of specs, speedy display, and fantastic price for its midrange configuration.</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Specification</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>CPU</td>
+                  <td>AMD Ryzen™ 5 7235HS Processor (3.20 GHz up to 4.20 GHz)</td>
+                </tr>
+                <tr>
+                  <td>Graphics</td>
+                  <td>NVIDIA® GeForce RTX™ 3050 Laptop GPU 6GB GDDR6</td>
+                </tr>
+                <tr>
+                  <td>RAM</td>
+                  <td>12 GB DDR5-4800MHz (SODIMM)</td>
+                </tr>
+                <tr>
+                  <td>Storage</td>
+                  <td>512 GB SSD M.2 2242 PCIe Gen4 QLC</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="video-container">
+          <video controls autoplay loop muted>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="video-container-cropped">
+              <video controls autoplay loop muted>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="video-container-cropped">
+              <video controls autoplay loop muted>
+                <source src="video3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="video-container-cropped">
+              <video controls autoplay loop muted>
+                <source src="video4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="video-container-cropped">
+              <video controls autoplay loop muted>
+                <source src="video5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="footer">
+    <h6>Developed by: Aswin</h6>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

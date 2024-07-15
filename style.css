@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+body  {
+  background: linear-gradient(to right,red,pink,blue);
+}
+
+.carousel-item {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 32rem;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.container-background{
+  background: black;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.img-fluid {
+  width: 400px;
+  height: 40px;
+}
+
+.container1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: larger;
+  position: relative;
+  text-align: right;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #777;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.video-container {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
+.video-container-cropped {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* 1:1 Aspect Ratio */
+  overflow: hidden;
+}
+
+.video-container-cropped video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1{
+  background-color: black;
+}
